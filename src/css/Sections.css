@@ -1,0 +1,39 @@
+.sections {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  padding: 1rem 4rem;
+  background-color: white;
+  border: none;
+  color: #722f37;
+  font-size: 1rem;
+  border-bottom: 3px solid #722f37;
+  text-decoration: none;
+}
+.starters {
+  background-color: #722f37;
+}
+.main {
+  background-color: #ba9b8d;
+}
+.desserts {
+  background-color: #585651;
+}
+.active {
+  background-color: #722f37;
+  color: white;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 947px) {
+  .sections {
+    flex-direction: column;
+  }
+  .btn {
+    border: none;
+  }
+}

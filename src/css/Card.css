@@ -1,0 +1,19 @@
+.card {
+  display: flex;
+  gap: 1rem;
+  width: 450px;
+}
+img {
+  border: 3px solid #722f37;
+  border-radius: 5px;
+}
+/*  */
+.name-price {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+.desc {
+  padding-top: 1rem;
+  color: #969696;
+}
